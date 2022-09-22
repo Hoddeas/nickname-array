@@ -6,7 +6,7 @@ function randomInt(min, max) {
 }
 
 // Nickname Array
-let nickname = ["Destroyer", "Squid", "Untouchable", "The GOAT", "All-Knowing", "Fluffy"];
+let nickname = ["Destroyer", "Squid", "Untouchable", "The GOAT", "All-Knowing", "Fluffy", "The Joker", "Quiet", "Smarty", "Ace", "Champ", "Amigo", "Clumsy"];
 
 // Event Listener for One Nickname
 document.getElementById("randomNickname").addEventListener("click", function() {
@@ -19,6 +19,7 @@ document.getElementById("randomNickname").addEventListener("click", function() {
 document.getElementById("allNicknames").addEventListener("click", function() {
     let firstName = document.getElementById("first-name").value;
     let lastName = document.getElementById("last-name").value;
+    document.getElementById("outputNicknames").innerHTML = "";
     for (let i = 0; i < nickname.length; i++) {
     document.getElementById("outputNicknames").innerHTML += firstName + ' "' + nickname[i] + '" ' + lastName + "<br>";
     }
