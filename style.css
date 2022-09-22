@@ -1,0 +1,14 @@
+html {
+    background-color: rgb(43, 110, 211);
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+body {
+    padding-left: 300px;
+    padding-right: 300px;
+}
+
+.outputNicknames {
+    font-size: 30px;
+}
